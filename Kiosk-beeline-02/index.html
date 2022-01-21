@@ -123,6 +123,12 @@
 
         .button {
             margin-bottom: 8vw;
+            position: absolute;
+            /* right: 0; */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50vh);
+            width: 100%;
         }
         
         .button p {
@@ -170,8 +176,9 @@
             background-color: #0073e6;
             color: #ffffff;
             margin: 7px auto 5.5vh;
-            font-size: 3.5vw;
-            line-height: 4vw;
+            /*font-size: 3.5vw;*/
+            /*line-height: 4vw;*/
+            font-size: 22px;
         }
 
         .cancel {
@@ -185,6 +192,7 @@
         }
 
         .finder {
+            display: none;
             font-size: 4.6vw;
             line-height: 4.6vw;
             color: #ffffff;
@@ -305,7 +313,7 @@
                 top: 50%;
                 left: 0;
                 right: 0;
-                transform: translateY(-40%);
+                transform: translateY(-30%);
             }
              .btn {
                  height: calc(var(--btn-fontSize) * 1.7);
@@ -332,8 +340,8 @@
                 right: 0;
             }
             .price, .cancel {
-                font-size: 4vh;
-                line-height: 4vh;
+                /*font-size: 4vh;*/
+                /*line-height: 4vh;*/
             }
             .price {
                 height: 3vw;
@@ -418,20 +426,6 @@
                 margin-bottom: 30vw;
             }
         }
-
-        /*@media (orientation: portrait) and (max-width: 460px) and (min-height: 460px) {*/
-        /*    header .title h1 {*/
-        /*        font-size: 6vh;*/
-        /*        line-height: 6vh;*/
-        /*    }*/
-        /*    header .title p {*/
-        /*        font-size: 3.5vh;*/
-        /*        line-height: 3vh;*/
-        /*    }*/
-        /*    header .age {*/
-        /*        height: 4.5vh;*/
-        /*    }*/
-        /*}*/
 
         /* SMS STYLE */
         #smsbox,
