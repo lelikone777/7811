@@ -130,6 +130,12 @@
 
         .button {
             margin-bottom: 21vw;
+            position: absolute;
+            /* right: 0; */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50vh);
+            width: 100%;
         }
         
         .button p {
@@ -169,8 +175,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 60%;
-            padding: 18px 0;
+            width: fit-content;
+            padding: 18px 10px;
             font-size: 22px;
             background-color: #ffffff;
             color: #000000;
@@ -343,7 +349,7 @@
                 /*line-height: 4vh;*/
             }
             .price {
-                height: 3vw;
+                height: 5vw;
                 /*font-size: calc(var(--btn-fontSize) / 5);*/
             }
 
